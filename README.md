@@ -6,5 +6,7 @@ NodeMCU modülü için Firmware Güncellemesi aşağıdaki gibi:
 
 1.Adım
 
-Arduino IDE de tools ların aşağıdaki foto gibi olmasına dikkat et! (Port sende ne gösteriyorsa o :) )
+Arduino IDE de tools ların aşağıdaki foto gibi olmasına dikkat et! (Port sende ne gösteriyorsa o :D )
+
+
 ![Arduino IDE Tools](https://user-images.githubusercontent.com/36787074/57237050-091a4080-702f-11e9-93f1-f27412a17ac9.PNG)
