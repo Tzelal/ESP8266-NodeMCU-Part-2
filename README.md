@@ -76,7 +76,9 @@ Son olarak Arduino IDE'yi açıp Serial port'a AT yazman gerek.Bundan önce ESP8
 
 Farklı modül veya model kullanıyorsan kullandığım ingilice kaynaklar aracılığıyla sadece AT bin'leri değiştirerek güncellemeyi yapabilirsin.
 
-İngilizce kaynaklar:
+
+**İngilizce kaynaklar:**
+
 Espressif:https://www.espressif.com/en/products/hardware/esp8266ex/overview
 
 ESP8266 Arduino Core’s documentation:https://arduino-esp8266.readthedocs.io/en/2.5.0/filesystem.html#flash-layout
