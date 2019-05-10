@@ -1,6 +1,8 @@
 <h1 align="center">ESP8266-tzelliot-</h1>
 <h2 align="center">ESP8266 NodeMCU Firmware Update (...NodeMCU...)</h2>
 
+<p align="center"><img src="https://user-images.githubusercontent.com/36787074/57551143-02623500-7371-11e9-9bb0-59e907150322.JPG" width="550"></p>
+
 Mehabalar kolay gelsin.ESP8266 NodeMCU modülünü Arduino IDE ye kurmuş birisinin Firmware update'i nasıl yapması gerektiğini anlatmaya çalışıcam.Öncelikle Part 1 de anlattıklarımı yaptığını farz ediyorum burada anlatıcaklarım 2. adım gibi birşey diyebilirim.Arduino IDE ye gidip Serial portu açtığında eğer NodeMCU modülü çalışıyorsa daha doğrusu komutları almaya hazırsa Serial portta "ready" yazması gerekiyor.Eğer "ready" yazıyorsa modül düzgün çalışıyor demektir ve burada yazdıklarımın hiçbirisini yapmana gerek yok, direkt projene başlayabilirsin.Fakat Serial Portta "ready" yerine okunmayan yazılar varsa o zaman Firmware güncellemesini yapman gerek.
 
 NodeMCU modülü için Firmware Güncellemesi aşağıdaki gibi:
