@@ -12,7 +12,11 @@ NodeMCU modülü için Firmware Güncellemesi aşağıdaki gibi:
 Arduino IDE de tools ların aşağıdaki foto gibi olmasına dikkat et! (Port sende ne gösteriyorsa o :D )
 
 
+
+
 ![Arduino IDE Tools](https://user-images.githubusercontent.com/36787074/57237050-091a4080-702f-11e9-93f1-f27412a17ac9.PNG)
+
+
 
 <h3 align="center">.............İKİNCİ ADIM...............</h3>
 <hr size="3" width="%100">
@@ -24,27 +28,46 @@ https://www.espressif.com/en/support/download/other-tools
 Kullandığın model Espressif'ın olmayabilir, birsürü şirketin modeli var fakat bu flash tool hepsinde geçerli hatta ESP32 içim bile.
 İndirmen gereken dosyanın resmi aşağıda...
 
+
+
 ![Espressif Webpage](https://user-images.githubusercontent.com/36787074/57237629-49c68980-7030-11e9-926a-3bc002f8dc39.PNG)
+
+
 
 İndirdiğin dosyada Çalıştıracağın program yina aşağıdaki resimde gösteriyorum:
 
+
+
 ![Flash Download Tool](https://user-images.githubusercontent.com/36787074/57238216-8c3c9600-7031-11e9-9653-64baa7d34314.PNG)
+
+
 
 Açılan pencerede ESP8266 Download Tool'u seçiyorsun...
 
+
+
 ![Flash Tool ESP8266](https://user-images.githubusercontent.com/36787074/57238263-a9716480-7031-11e9-82dd-d8a8803a769b.PNG)
+
+
 
 Karşılaşman gereken sayfa (Uzun zaman önce yaptığım için hatırlamıyorum):
 
 
+
+
 ![ESP8266 Download Tool](https://user-images.githubusercontent.com/36787074/57238808-f0ac2500-7032-11e9-87be-ec1a949adf40.PNG)
+
+
 
 <h3 align="center">............ÜÇÜNCÜ ADIM..............</h3>
 <hr size="3" width="%100">
 
 Bu adımda ESP8266 Download Tool için indirmen gereken dosyaları göstericem.Öncelikle aşağıdaki linke tıklayıp dosyaları indireceğin siteye gitmen gerek.
 
+
 https://www.espressif.com/en/products/hardware/esp8266ex/resources
+
+
 
 Siteye gittikten sonra aşağıdaki resimde belirttiğin dosyayı indirmen gerekecek.
 
@@ -57,16 +80,20 @@ Siteye gittikten sonra aşağıdaki resimde belirttiğin dosyayı indirmen gerek
 
 Son olarak indirdiğin dosyadaki AT BIN'leri ESP8266 Download Tool'a yerleştirmek kalıyor.
 
+
 ![ESP8266 Tool Dosyalari](https://user-images.githubusercontent.com/36787074/57540761-1f3d3f00-7356-11e9-88af-d7821650ee70.PNG)
 
 
-NOT:
-!!! Mor çerçevenin içindeki sayfa yukarıdaki kırmızı kutulara tıklayınca çıkıcak.çıkmaması durumunda indirdiğin ESP_AT_Bin_V1.5.1 dosyasını bulup içindeki dosyaları resimde olduğu gibi yerleştirebilirsin...!!!
+:exclamation:NOT:
+  Mor çerçevenin içindeki sayfa yukarıdaki kırmızı kutulara tıklayınca çıkıcak.çıkmaması durumunda indirdiğin ESP_AT_Bin_V1.5.1 dosyasını bulup içindeki dosyaları resimde olduğu gibi yerleştirebilirsin...!!!
 
 Tüm dosyaları yerleştirip "START" butonuna tıklayınca Firmware güncellemesi tamamlanmış oluyor.
+
+
 ![ESP8266 Download Tool FINISH](https://user-images.githubusercontent.com/36787074/57540891-73e0ba00-7356-11e9-98d2-a128255561e9.PNG)
 
 Son olarak Arduino IDE'yi açıp Serial port'a AT yazman gerek.Bundan önce ESP8266 modülünün hazıl olup olmadığını kontrol etmek için serial portta iken ESP8266 modülünün üzerindeki "RSP" (RESET) tuşuna basmanı tavsiye ediyorum.Butona bastığında serial portta "ready" yazacaktır.Serialdeki "ready" yazısını görünce porta bu sefer "AT" yazman gerek.Karşılık olarak olarak aşağıdaki resimde olduğu gibi "ok" cevabı gelicek.
+
 
 ![AT Deneme](https://user-images.githubusercontent.com/36787074/57541385-8a3b4580-7357-11e9-9595-085b134b2a3a.PNG)
 
