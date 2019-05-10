@@ -13,8 +13,7 @@ Arduino IDE de tools ların aşağıdaki foto gibi olmasına dikkat et! (Port se
 
 
 
-
-![Arduino IDE Tools](https://user-images.githubusercontent.com/36787074/57237050-091a4080-702f-11e9-93f1-f27412a17ac9.PNG)
+<p align="center"><img src="https://user-images.githubusercontent.com/36787074/57237050-091a4080-702f-11e9-93f1-f27412a17ac9.PNG" ></p>
 
 
 
@@ -29,34 +28,25 @@ Kullandığın model Espressif'ın olmayabilir, birsürü şirketin modeli var f
 İndirmen gereken dosyanın resmi aşağıda...
 
 
-
-![Espressif Webpage](https://user-images.githubusercontent.com/36787074/57237629-49c68980-7030-11e9-926a-3bc002f8dc39.PNG)
-
+<p align="center"><img src="https://user-images.githubusercontent.com/36787074/57237629-49c68980-7030-11e9-926a-3bc002f8dc39.PNG" ></p>
 
 
 İndirdiğin dosyada Çalıştıracağın program yina aşağıdaki resimde gösteriyorum:
 
 
-
-![Flash Download Tool](https://user-images.githubusercontent.com/36787074/57238216-8c3c9600-7031-11e9-9653-64baa7d34314.PNG)
-
+<p align="center"><img src="https://user-images.githubusercontent.com/36787074/57238216-8c3c9600-7031-11e9-9653-64baa7d34314.PNG" ></p>
 
 
 Açılan pencerede ESP8266 Download Tool'u seçiyorsun...
 
 
-
-![Flash Tool ESP8266](https://user-images.githubusercontent.com/36787074/57238263-a9716480-7031-11e9-82dd-d8a8803a769b.PNG)
-
+<p align="center"><img src="https://user-images.githubusercontent.com/36787074/57238263-a9716480-7031-11e9-82dd-d8a8803a769b.PNG" ></p>
 
 
 Karşılaşman gereken sayfa (Uzun zaman önce yaptığım için hatırlamıyorum):
 
 
-
-
-![ESP8266 Download Tool](https://user-images.githubusercontent.com/36787074/57238808-f0ac2500-7032-11e9-87be-ec1a949adf40.PNG)
-
+<p align="center"><img src="(https://user-images.githubusercontent.com/36787074/57238808-f0ac2500-7032-11e9-87be-ec1a949adf40.PNG" ></p>
 
 
 <h3 align="center">............ÜÇÜNCÜ ADIM..............</h3>
@@ -68,10 +58,9 @@ Bu adımda ESP8266 Download Tool için indirmen gereken dosyaları göstericem.�
 https://www.espressif.com/en/products/hardware/esp8266ex/resources
 
 
-
 Siteye gittikten sonra aşağıdaki resimde belirttiğin dosyayı indirmen gerekecek.
 
-![AT Bin V1 5 1 Screenshot](https://user-images.githubusercontent.com/36787074/57534408-a683b600-7348-11e9-81c0-260c408d33dd.PNG)
+<p align="center"><img src="https://user-images.githubusercontent.com/36787074/57534408-a683b600-7348-11e9-81c0-260c408d33dd.PNG" ></p>
 
 
 <h3 align="center">............DÖRDÜNCÜ ADIM..............</h3>
@@ -81,7 +70,7 @@ Siteye gittikten sonra aşağıdaki resimde belirttiğin dosyayı indirmen gerek
 Son olarak indirdiğin dosyadaki AT BIN'leri ESP8266 Download Tool'a yerleştirmek kalıyor.
 
 
-![ESP8266 Tool Dosyalari](https://user-images.githubusercontent.com/36787074/57540761-1f3d3f00-7356-11e9-88af-d7821650ee70.PNG)
+<p align="center"><img src="https://user-images.githubusercontent.com/36787074/57540761-1f3d3f00-7356-11e9-88af-d7821650ee70.PNG" ></p>
 
 
 :exclamation:NOT:
@@ -90,13 +79,14 @@ Son olarak indirdiğin dosyadaki AT BIN'leri ESP8266 Download Tool'a yerleştirm
 Tüm dosyaları yerleştirip "START" butonuna tıklayınca Firmware güncellemesi tamamlanmış oluyor.
 
 
-![ESP8266 Download Tool FINISH](https://user-images.githubusercontent.com/36787074/57540891-73e0ba00-7356-11e9-98d2-a128255561e9.PNG)
+<p align="center"><img src="https://user-images.githubusercontent.com/36787074/57540891-73e0ba00-7356-11e9-98d2-a128255561e9.PNG" ></p>
+
 
 Son olarak Arduino IDE'yi açıp Serial port'a AT yazman gerek.Bundan önce ESP8266 modülünün hazıl olup olmadığını kontrol etmek için serial portta iken ESP8266 modülünün üzerindeki "RSP" (RESET) tuşuna basmanı tavsiye ediyorum.Butona bastığında serial portta "ready" yazacaktır.Serialdeki "ready" yazısını görünce porta bu sefer "AT" yazman gerek.Karşılık olarak olarak aşağıdaki resimde olduğu gibi "ok" cevabı gelicek.
 
 
-![AT Deneme](https://user-images.githubusercontent.com/36787074/57541385-8a3b4580-7357-11e9-9595-085b134b2a3a.PNG)
 
+<p align="center"><img src="https://user-images.githubusercontent.com/36787074/57541385-8a3b4580-7357-11e9-9595-085b134b2a3a.PNG" ></p>
 
 Şuan NodeMCU modülünü kullanmaya hazırsın.Elimden geldiğince buraya yeni projeler eklemeye çalışıcam umarım takipte kalmayı unutma :D .
 
