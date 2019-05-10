@@ -48,8 +48,26 @@ Siteye gittikten sonra aşağıdaki resimde belirttiğin dosyayı indirmen gerek
 
 Son olarak indirdiğin dosyadaki AT BIN'leri ESP8266 Download Tool'a yerleştirmek kalıyor.
 
-![AT Bin yükleme işlemi](https://user-images.githubusercontent.com/36787074/57535752-80134a00-734b-11e9-8248-0b65e182cd21.PNG)
+![ESP8266 Tool Dosyalari](https://user-images.githubusercontent.com/36787074/57540761-1f3d3f00-7356-11e9-88af-d7821650ee70.PNG)
 
 
 NOT:
 !!! Mor çerçevenin içindeki sayfa yukarıdaki kırmızı kutulara tıklayınca çıkıcak.çıkmaması durumunda indirdiğin ESP_AT_Bin_V1.5.1 dosyasını bulup içindeki dosyaları resimde olduğu gibi yerleştirebilirsin...!!!
+
+Tüm dosyaları yerleştirip "START" butonuna tıklayınca Firmware güncellemesi tamamlanmış oluyor.
+![ESP8266 Download Tool FINISH](https://user-images.githubusercontent.com/36787074/57540891-73e0ba00-7356-11e9-98d2-a128255561e9.PNG)
+
+Son olarak Arduino IDE'yi açıp Serial port'a AT yazman gerek.Bundan önce ESP8266 modülünün hazıl olup olmadığını kontrol etmek için serial portta iken ESP8266 modülünün üzerindeki "RSP" (RESET) tuşuna basmanı tavsiye ediyorum.Butona bastığında serial portta "ready" yazacaktır.Serialdeki "ready" yazısını görünce porta bu sefer "AT" yazman gerek.Karşılık olarak olarak aşağıdaki resimde olduğu gibi "ok" cevabı gelicek.
+
+![AT Deneme](https://user-images.githubusercontent.com/36787074/57541385-8a3b4580-7357-11e9-9595-085b134b2a3a.PNG)
+
+
+Şuan NodeMCU modülünü kullanmaya hazırsın.Elimden geldiğince buraya yeni projeler eklemeye çalışıcam umarım takipte kalmayı unutma :D .
+
+
+Farklı modül veya model kullanıyorsan kullandığım ingilice kaynaklar aracılığıyla sadece AT bin'leri değiştirerek güncellemeyi yapabilirsin.
+
+İngilizce kaynaklar:
+Espressif:https://www.espressif.com/en/products/hardware/esp8266ex/overview
+
+ESP8266 Arduino Core’s documentation:https://arduino-esp8266.readthedocs.io/en/2.5.0/filesystem.html#flash-layout
