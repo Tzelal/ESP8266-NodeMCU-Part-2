@@ -24,7 +24,9 @@ Arduino IDE de tools ların aşağıdaki foto gibi olmasına dikkat et! (Port se
 
 Şimdi Firmware güncellemesini yapmak için flash tool indirmemiz gerek.Flash tool indirmek için üreticisinin sitesine gitmek gerek o da :
 
-https://www.espressif.com/en/support/download/other-tools
+
+[https://www.espressif.com/en/support/download/other-tools](https://www.espressif.com/en/support/download/other-tools)
+
 
 Kullandığın model Espressif'ın olmayabilir, birsürü şirketin modeli var fakat bu flash tool hepsinde geçerli hatta ESP32 içim bile.
 İndirmen gereken dosyanın resmi aşağıda...
@@ -98,7 +100,6 @@ Farklı modül veya model kullanıyorsan kullandığım ingilice kaynaklar arac�
 
 **İngilizce kaynaklar:**
 
-Espressif:https://www.espressif.com/en/products/hardware/esp8266ex/overview
+Espressif:[https://www.espressif.com/en/products/hardware/esp8266ex/overview](https://www.espressif.com/en/products/hardware/esp8266ex/overview)
 
-ESP8266 Arduino Core’s documentation:https://arduino-esp8266.readthedocs.io/en/2.5.0/filesystem.html#flash-layout
-
+ESP8266 Arduino Core’s documentation:[https://arduino-esp8266.readthedocs.io/en/2.5.0/filesystem.html#flash-layout](https://arduino-esp8266.readthedocs.io/en/2.5.0/filesystem.html#flash-layout)
