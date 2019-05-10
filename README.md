@@ -100,6 +100,6 @@ Farklı modül veya model kullanıyorsan kullandığım ingilice kaynaklar arac�
 
 **İngilizce kaynaklar:**
 
-Espressif:[https://www.espressif.com/en/products/hardware/esp8266ex/overview](https://www.espressif.com/en/products/hardware/esp8266ex/overview)
+Espressif:  [https://www.espressif.com/en/products/hardware/esp8266ex/overview](https://www.espressif.com/en/products/hardware/esp8266ex/overview)
 
-ESP8266 Arduino Core’s documentation:[https://arduino-esp8266.readthedocs.io/en/2.5.0/filesystem.html#flash-layout](https://arduino-esp8266.readthedocs.io/en/2.5.0/filesystem.html#flash-layout)
+ESP8266 Arduino Core’s documentation:   [https://arduino-esp8266.readthedocs.io/en/2.5.0/filesystem.html#flash-layout](https://arduino-esp8266.readthedocs.io/en/2.5.0/filesystem.html#flash-layout)
