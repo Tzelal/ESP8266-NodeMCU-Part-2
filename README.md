@@ -47,7 +47,9 @@ Açılan pencerede ESP8266 Download Tool'u seçiyorsun...
 <p align="center"><img src="https://user-images.githubusercontent.com/36787074/57238263-a9716480-7031-11e9-82dd-d8a8803a769b.PNG" width="650" ></p>
 
 
-Karşılaşman gereken sayfa (Uzun zaman önce yaptığım için hatırlamıyorum):
+Karşılaşman gereken sayfa :
+
+<p align="center"><img src="https://user-images.githubusercontent.com/36787074/73225090-86b54c00-417c-11ea-9706-0b28cbb78f98.PNG" width="650" ></p>
 
 
 <p align="center"><img src="(https://user-images.githubusercontent.com/36787074/57238808-f0ac2500-7032-11e9-87be-ec1a949adf40.PNG" width="650" ></p>
@@ -92,7 +94,7 @@ Son olarak Arduino IDE'yi açıp Serial port'a AT yazman gerek.Bundan önce ESP8
 
 <p align="center"><img src="https://user-images.githubusercontent.com/36787074/57541385-8a3b4580-7357-11e9-9595-085b134b2a3a.PNG" width="550" ></p>
 
-Şuan NodeMCU modülünü kullanmaya hazırsın.Elimden geldiğince buraya yeni projeler eklemeye çalışıcam umarım takipte kalmayı unutma :D .
+Şuan NodeMCU modülünü kullanmaya hazırsın.Elimden geldiğince buraya yeni projeler eklemeye çalışıcam , takipte kalmayı unutma :D .
 
 
 Farklı modül veya model kullanıyorsan kullandığım ingilice kaynaklar aracılığıyla sadece AT bin'leri değiştirerek güncellemeyi yapabilirsin.
